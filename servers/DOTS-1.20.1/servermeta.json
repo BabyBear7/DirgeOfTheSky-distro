@@ -1,0 +1,43 @@
+{
+  "$schema": "file:///C:/helios/DirgeOfTheSky/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "DOTS (Minecraft 1.20.1)",
+    "description": "DOTS Running Minecraft 1.20.1 (Fabric v0.16.7)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": ">=17",
+      "suggestedMajor": 17,
+      "platformOptions": [
+        {
+          "platform": "darwin",
+          "architecture": "arm64",
+          "distribution": "CORRETTO"
+        }
+      ],
+      "ram": {
+        "recommended": 4096,
+        "minimum": 4096
+      }
+    }
+  },
+  "fabric": {
+    "version": "0.16.7"
+  },
+  "untrackedFiles": [
+	{
+		"appliesTo": ["files"],
+		"patterns": [
+		  "options.txt"
+		]
+	}
+  ]
+}
