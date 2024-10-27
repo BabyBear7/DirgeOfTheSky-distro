@@ -159,6 +159,17 @@
             "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
             "MD5": "9880bae748957d1cb6c4de50c8e0452a"
           }
+        },
+        {
+          "id": "DOTS_KO.zip",
+          "name": "DOTS_KO.zip",
+          "type": "File",
+          "artifact": {
+            "size": 74978646,
+            "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/files/resourcepacks/DOTS_KO.zip",
+            "MD5": "d56db764004e696655d5219f8161fabd",
+            "path": "resourcepacks/DOTS_KO.zip"
+          }
         }
       ]
     }
