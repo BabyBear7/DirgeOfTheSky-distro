@@ -12,7 +12,7 @@
       "name": "DOTS RPG",
       "description": "DOTS Running Minecraft 1.20.1 (Fabric v0.16.7)",
       "icon": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/serverIMG.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -151,6 +151,16 @@
           }
         },
         {
+          "id": "com.hyfata.najoan:koreanpatch:1.3.1-1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39387,
+            "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/fabricmods/required/koreanpatch-1.3.1-1.20.1.jar",
+            "MD5": "6fdcbf1aadc8dcdf9d5673269417dc4c"
+          }
+        },
+        {
           "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -158,6 +168,16 @@
             "size": 968419,
             "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
             "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3683,
+            "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/files/options.txt",
+            "path": "options.txt"
           }
         },
         {
@@ -169,6 +189,17 @@
             "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/files/resourcepacks/DOTS_KO.zip",
             "MD5": "d56db764004e696655d5219f8161fabd",
             "path": "resourcepacks/DOTS_KO.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
           }
         }
       ]
