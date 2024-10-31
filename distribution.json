@@ -12,8 +12,8 @@
       "name": "DOTS RPG",
       "description": "DOTS Running Minecraft 1.20.1 (Fabric v0.16.7)",
       "icon": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/serverIMG.png",
-      "version": "1.0.2",
-      "address": "222.237.151.108",
+      "version": "1.0.3",
+      "address": "115.20.164.163",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -185,8 +185,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 2188,
+            "size": 4188,
             "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/files/servers.dat",
+            "MD5": "376c8e04716c4e41bd2d139d7376a1c6",
             "path": "servers.dat"
           }
         },
@@ -195,8 +196,9 @@
           "name": "servers.dat_old",
           "type": "File",
           "artifact": {
-            "size": 2188,
+            "size": 2187,
             "url": "https://raw.githubusercontent.com/BabyBear7/DirgeOfTheSky-distro/main/servers/DOTS-1.20.1/files/servers.dat_old",
+            "MD5": "e08c4176a80ed1e9a4feeeced6d5ebcc",
             "path": "servers.dat_old"
           }
         },
